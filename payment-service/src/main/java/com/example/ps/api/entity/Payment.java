@@ -14,8 +14,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Payment {
 
+public class Payment {
 	@Id
 	@GeneratedValue
 	private int paymentId;

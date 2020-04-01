@@ -27,6 +27,11 @@ public class PaymentService {
 		//api should be third party gateway
 		return new Random().nextBoolean()?"Success":"false";
 	}
+
+	public Payment findPaymentHistoryByOrderId(int orderId) {
+		// TODO Auto-generated method stub
+		return paymentRepository.findByOrderId(orderId);
+	}
 	
 }
 

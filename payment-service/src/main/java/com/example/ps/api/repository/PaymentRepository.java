@@ -6,4 +6,6 @@ import com.example.ps.api.entity.Payment;
 
 public interface PaymentRepository extends JpaRepository<Payment,Integer>{
 
+	Payment findByOrderId(int orderId);
+
 }
