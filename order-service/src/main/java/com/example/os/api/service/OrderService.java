@@ -27,7 +27,7 @@ public class OrderService {
 		Payment payment = request.getPayment();
 		payment.setOrderId(order.getId());
 		payment.setAmount(order.getPrice());
-		Payment paymentResponse = restTemplate.postForObject("http://localhost:9191/payment/doPayment", payment, Payment.class);
+		Payment paymentResponse = restTemplate.postForObject("http://PAYMENT-SERVICE/payment/doPayment", payment, Payment.class);
 		
 		response= paymentResponse.getPaymentStatus().equals("Success")?"Payment Processing Successful and Order Placed":"There is failure in Payment APi";
 		
