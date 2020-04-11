@@ -1,0 +1,21 @@
+2020-04-12 01:27:12.897  INFO 4304 --- [restartedMain] c.e.e.stack.ElkStackExampleApplication   : Starting ElkStackExampleApplication on DESKTOP-TQ58HNN with PID 4304 (F:\EclipseWorkSpaces\HystrixPOC\elk-stack-example\target\classes started by Rohit Dhingra in F:\EclipseWorkSpaces\HystrixPOC\elk-stack-example)
+2020-04-12 01:27:12.901  INFO 4304 --- [restartedMain] c.e.e.stack.ElkStackExampleApplication   : No active profile set, falling back to default profiles: default
+2020-04-12 01:27:13.008  INFO 4304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-12 01:27:13.008  INFO 4304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-12 01:27:14.227  INFO 4304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9898 (http)
+2020-04-12 01:27:14.272  INFO 4304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-12 01:27:14.273  INFO 4304 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 01:27:14.424  INFO 4304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-12 01:27:14.424  INFO 4304 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1416 ms
+2020-04-12 01:27:14.840  INFO 4304 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 01:27:15.187  INFO 4304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-12 01:27:15.297  INFO 4304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9898 (http) with context path ''
+2020-04-12 01:27:15.300  INFO 4304 --- [restartedMain] c.e.e.stack.ElkStackExampleApplication   : Started ElkStackExampleApplication in 2.848 seconds (JVM running for 3.471)
+2020-04-12 01:29:16.166  INFO 4304 --- [http-nio-9898-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-12 01:29:16.166  INFO 4304 --- [http-nio-9898-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-12 01:29:16.226  INFO 4304 --- [http-nio-9898-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 59 ms
+2020-04-12 01:29:16.272  INFO 4304 --- [http-nio-9898-exec-1] c.e.e.stack.ElkStackExampleApplication   : user found:User(id=1, name=John)
+2020-04-12 01:29:29.631  INFO 4304 --- [http-nio-9898-exec-3] c.e.e.stack.ElkStackExampleApplication   : user found:User(id=2, name=Shyam)
+2020-04-12 01:29:38.353 ERROR 4304 --- [http-nio-9898-exec-5] c.e.e.stack.ElkStackExampleApplication   : User not found with ID: 33
+2020-04-12 01:42:27.366  INFO 4304 --- [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-12 01:42:27.378  INFO 4304 --- [RMI TCP Connection(25)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
