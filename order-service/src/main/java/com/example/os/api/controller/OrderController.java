@@ -11,6 +11,7 @@ import com.example.os.api.common.TransactionRequest;
 import com.example.os.api.common.TransactionResponse;
 import com.example.os.api.entity.Order;
 import com.example.os.api.service.OrderService;
+import com.fasterxml.jackson.core.JsonProcessingException;
 
 @RestController
 @RequestMapping("/order")
@@ -20,7 +21,7 @@ public class OrderController {
 	private OrderService orderService;
 	
 	@PostMapping("/bookOrder")
-	public TransactionResponse bookOrder(@RequestBody TransactionRequest request)
+	public TransactionResponse bookOrder(@RequestBody TransactionRequest request) throws JsonProcessingException
 	{
 		
 		return orderService.saveOrder(request);
